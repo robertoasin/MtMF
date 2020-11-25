@@ -50,9 +50,9 @@ Open-WBO follows the standard output of MaxSAT solvers:
   of a literal is denoted by a minus sign immediately followed by the integer of 
   the variable.
   
->  Authors:\t\t Roberto Asin, Jorge Baier, Rodrigo Lopez, Sebastian Hagedorn
+> Authors: Roberto Asin, Jorge Baier, Rodrigo Lopez, Sebastian Hagedorn
 
->  To contact the authors please send an email to:  rasin@inf.udec.cl
+> To contact the authors please send an email to:  rasin@inf.udec.cl
 
 > Open-WBO Authors: Ruben Martins, Vasco Manquinho, Ines Lynce
 
