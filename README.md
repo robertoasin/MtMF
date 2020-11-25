@@ -24,7 +24,7 @@ The following options are available in MAPFSAT:
 ### Search algorithm phase 2 (1=linear-su,2=msu3,3=part-msu3,4=oll)
 ```-algorithm2    = <int32>  [   1 ..    4] (default: 1)```
 
-### Search algorithm phase 2 (0=FULL,1=MINIMAL1,2=MINIMAL2)
+### MAPF Encoding (0=FULL,1=MINIMAL1,2=MINIMAL2)
 ```-encoding      = <int32>  [   1 ..    3] (default: 1)```
 
 ### At-most-one encodings (0=pairwise, 1=seqc_enc, 2=sortn_enc, 3=cardn_enc, 4=bitwise_enc, 5=ladd_enc, 6=tot_enc, 7=mtot_enc, 8=kmtot)
