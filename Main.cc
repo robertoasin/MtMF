@@ -253,10 +253,10 @@ int main(int argc, char **argv) {
 #endif
 
     IntOption verbosity("Open-WBO", "verbosity","Verbosity level (0=minimal, 1=more).\n", 0, IntRange(0, 1));
-    IntOption cpu_lim("Open-WBO", "cpu-lim","Limit on CPU time allowed in seconds.\n", 0, IntRange(0, INT32_MAX));
-    IntOption mem_lim("Open-WBO", "mem-lim", "Limit on memory usage in megabytes.\n", 0, IntRange(0, INT32_MAX));
+    IntOption cpu_lim("MAPFSAT", "cpu-lim","Limit on CPU time allowed in seconds.\n", 0, IntRange(0, INT32_MAX));
+    IntOption mem_lim("MAPFSAT", "mem-lim", "Limit on memory usage in megabytes.\n", 0, IntRange(0, INT32_MAX));
     IntOption algorithm1("Open-WBO", "algorithm1","Search algorithm (1=linear-su,2=msu3,3=part-msu3,4=oll).\n", 2, IntRange(1, 4));
-    IntOption algorithm2("Open-WBO", "algorithm2","Search algorithm (0=wbo,1=linear-su,2=msu3,3=part-msu3,4=oll,5=best).\n", 2, IntRange(0, 5));
+    IntOption algorithm2("Open-WBO", "algorithm2","Search algorithm (0=wbo,1=linear-su,2=msu3,3=part-msu3,4=oll,5=best).\n", 1, IntRange(0, 5));
     IntOption cardinality("Encodings", "cardinality","Cardinality encoding (0=cardinality networks, 1=totalizer, 2=modulo totalizer).\n", 1, IntRange(0, 2));
     IntOption encoding("MAPF encoding", "encoding", "MAPF encoding (0=FULL,1=MINIMAL1,2=MINIMAL2).\n", 0, IntRange(0, 2));
     IntOption amoEncoding("At-most one encoding", "amoEncoding", "AMO encoding (0=pairwise,1=seqc_enc,2=sortn_enc,3=cardn_enc,4=bitwise_enc,5=ladd_enc,6=tot_enc,7=mtot_enc,8=kmtot).\n", 4, IntRange(0, 8));
