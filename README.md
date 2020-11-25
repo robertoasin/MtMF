@@ -1,4 +1,4 @@
-# MAPFSAT MAPF Solver
+# MAPFSAT: MaxSAT-based MAPF Solver
 ## Version 1.0 - December 2020
 
 MAPFSAT is a MaxSAT-based MAPF Solver, using Open-WBO MaxSAT Solver.
