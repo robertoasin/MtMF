@@ -258,7 +258,7 @@ int main(int argc, char **argv) {
     IntOption algorithm1("Open-WBO", "algorithm1","Search algorithm (1=linear-su,2=msu3,3=part-msu3,4=oll).\n", 2, IntRange(1, 4));
     IntOption algorithm2("Open-WBO", "algorithm2","Search algorithm (0=wbo,1=linear-su,2=msu3,3=part-msu3,4=oll,5=best).\n", 1, IntRange(0, 5));
     IntOption cardinality("Encodings", "cardinality","Cardinality encoding (0=cardinality networks, 1=totalizer, 2=modulo totalizer).\n", 1, IntRange(0, 2));
-    IntOption encoding("MAPF encoding", "encoding", "MAPF encoding (0=FULL,1=MINIMAL1,2=MINIMAL2).\n", 0, IntRange(0, 2));
+    IntOption encoding("MAPF encoding", "encoding", "MAPF encoding (0=FULL,1=MINIMAL1,2=MINIMAL2).\n", 1, IntRange(0, 2));
     IntOption amoEncoding("At-most one encoding", "amoEncoding", "AMO encoding (0=pairwise,1=seqc_enc,2=sortn_enc,3=cardn_enc,4=bitwise_enc,5=ladd_enc,6=tot_enc,7=mtot_enc,8=kmtot).\n", 4, IntRange(0, 8));
     IntOption graph_type("PartMSU3", "graph-type","Graph type (0=vig, 1=cvig, 2=res) (only for unsat-based partition algorithms).",0, IntRange(0, 2));
     IntOption problemFormulation("Problem formulation", "problemFormulation", "Formulation of the problem (0=without follow conflict,1=with follow conflict,).\n", 0, IntRange(0, 1));
