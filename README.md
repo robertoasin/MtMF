@@ -1,13 +1,13 @@
-# MAPFSAT: MaxSAT-based MAPF Solver
+# MtMF: MAPF Through MaxSAT MAPF Solver
 ## Version 1.0 - December 2020
 
-MAPFSAT is a MaxSAT-based MAPF Solver, using Open-WBO MaxSAT Solver.
+MtMF is a MaxSAT-based MAPF Solver, using Open-WBO MaxSAT Solver.
 Open-WBO was one of the best solvers in the partial MaxSAT categories at 
 MaxSAT Evaluations 2014, 2015, 2016 and 2017 and in the decision and 
 optimization for SMALLINT categories at PB Evaluation 2016.
 
 Usage of the solver:
-./mapfsat [options] <input-file> <output-file>
+./mtmf [options] <input-file> <output-file>
 
 The following options are available in MAPFSAT:
 
